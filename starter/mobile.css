@@ -33,8 +33,24 @@
 .about-text-holder{
     min-width: 100%;
 }
- .about-image-holder{
+.about-image-holder{
     min-width: 95%;
     margin: 20px 0;
-} 
+}
+
+/* aboutus-section starts here */
+
+/* explore foods starts here */
+.explorefoods-card{
+    margin: 20px 0;
+}
+/* explore foods starts here */
+
+/* FAQ section starts here */
+ 
+.faq-items{
+    min-width: 100%;
+}
+/* FAQ section starts here */
+
 }
