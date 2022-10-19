@@ -530,4 +530,102 @@ list-style: none;
     margin: 15px 0;
    }
 
-   /* FAQ section ends here */
+   .faq-items p{
+    text-align: justify;
+   }
+
+   /* FAQ section ends here */ 
+
+   /* CTA section starts here */
+
+   .cta-section{
+    border: 3px solid tomato;
+    width: 90%;
+    margin: 0 auto;
+    
+   }
+
+   .cta-showcase{
+    border: 3px solid black;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: var(--gradient), url(./img/cta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    background-attachment: fixed;
+    color: var(--white-color);
+    }
+    /* CTA section starts here */
+
+    .cta-notice{
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    .cta-notice h2{
+        color: var(--main-color);
+        font-weight: bolder;
+        font-size: 35px;
+    }
+
+    .cta-notice p{
+        margin: 20px 0;
+    }
+
+    .cta-input-holder{
+        /* border: 3px solid black; */
+        display: flex;
+        justify-content: center;
+    }
+
+    .cta-input-holder input{
+        padding: 15px 10px;
+        width: 200px;
+        min-width: 100px;
+        transition: all 0.5s ease;
+        outline: none;
+        border: 2px solid var(--main-color);
+
+    }
+
+    .cta-input-holder input:hover{
+        width: 250px;
+    }
+
+    .cta-input-holder button{
+        color: var(--white-color);
+        background: var(--main-color);
+        border: 2px solid var(--main-color);
+    }
+    /* CTA section ends here */
+
+    /* footer section starts here */
+
+    footer{
+        background: var(--main-color);
+        padding: 2px 0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        color: var(--white-color);
+    }
+
+    footer button{
+        border: 2px solid var(--white-color);
+        background: transparent;
+        color: var(--white-color);
+    }
+
+    footer button:hover{
+        background: var(--main-color);
+    }
+
+    .footer-icon-holder{
+        border: 3px solid white;
+        height: 60px;
+        width: 200px;
+    }
+    /* footer section ends here */
