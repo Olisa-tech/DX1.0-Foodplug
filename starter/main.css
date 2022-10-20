@@ -624,8 +624,39 @@ list-style: none;
     }
 
     .footer-icon-holder{
-        border: 3px solid white;
-        height: 60px;
-        width: 200px;
+       display: flex;
     }
+    .icon-container{
+        
+        border: 2px solid var(--white-color);
+        height: 40px;
+        width: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        margin: 0 5px;
+        }
+
+        .icon-container:hover{
+            background: var(--main-color-dark);
+        }
+
+        footer a{
+            color: var(--white-color);
+            text-decoration: none;
+        }
+
+        footer button i{
+            margin: 0;
+            transition: all 0.5s ease;
+        }
+
+        footer button:hover{
+            background: var(--main-color-dark);
+        }
+
+        footer button:hover i{
+            margin-left: 10px;
+        }
     /* footer section ends here */

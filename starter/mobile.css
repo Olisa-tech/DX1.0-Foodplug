@@ -65,4 +65,15 @@
 }
 /* CTA section ends here */
 
+/* footer section starts here */
+footer{
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-icon-holder{
+    margin: 15px 0;
+}
+/* footer section ends here */
 }
